@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    tools:context=".recordActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="444dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginRight="444dp"
+        android:fontFamily="@font/nanumsquarebold"
+        android:gravity="center"
+        android:textSize="62px"
+        android:text="NOTIST"/>
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="43dp"
+        android:layout_height="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="51dp"
+        android:text="저장" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232px"
+        android:ems="10"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="85dp"
+        app:srcCompat="@android:drawable/editbox_background"
+
+        android:fontFamily="@font/nanumsquarebold"
+        android:text="저장"
+        android:textColor="#000000"
+        android:textSize="56px"
+
+        />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="329dp"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+
+        android:layout_marginBottom="382dp" />
+
+    <ImageButton
+        android:id="@+id/record_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="326dp"
+        android:background="@null"
+        app:srcCompat="@drawable/record_btn"
+        />
+
+
+
+
+</RelativeLayout>
