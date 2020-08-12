@@ -5,13 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="40dp"
-    android:layout_marginRight="40dp"
+    android:layout_marginLeft="40px"
+    android:layout_marginRight="40px"
     tools:context=".settingActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginLeft="444dp"
@@ -23,13 +24,17 @@
         android:text="기록하기"/>
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/edit_filename"
         android:layout_width="296dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="232px"
         android:ems="10"
-        android:inputType="date" />
+        android:textSize="56px"
+        android:fontFamily="@font/nanumsquareregular"
+        android:hint="Edit filename"
+
+        />
 
     <TextView
         android:id="@+id/textView"
@@ -87,32 +92,6 @@
         android:background="@null"
         app:srcCompat="@drawable/plus" />
 
-    <ImageButton
-        android:id="@+id/plus2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="372dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
-        android:background="@null"
-        app:srcCompat="@drawable/plus" />
-
-    <ImageButton
-        android:id="@+id/plus3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="430dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
-        android:background="@null"
-        app:srcCompat="@drawable/plus" />
-
 
     <ImageButton
         android:id="@+id/minus"
@@ -141,29 +120,54 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="19dp"
-        android:layout_marginLeft="19dp"
-        android:layout_marginBottom="263dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="1005px"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginBottom="255dp"
         android:fontFamily="@font/nanumsquareregular"
         android:text="카테고리 추가"
         android:textSize="56px" />
+
+    <ImageButton
+        android:id="@+id/plus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@null"
+        app:srcCompat="@drawable/plus" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginBottom="202dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="1147px"
+        android:layout_marginBottom="190dp"
         android:fontFamily="@font/nanumsquareregular"
         android:text="친구 / 그룹 불러오기"
         android:textSize="56px" />
+
+    <ImageButton
+        android:id="@+id/plus3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@null"
+        app:srcCompat="@drawable/plus" />
 
     <Button
         android:id="@+id/makeroom"
@@ -173,18 +177,14 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="551dp"
+        android:layout_marginTop="1617px"
         android:layout_marginEnd="0dp"
-
-
         android:layout_marginRight="2dp"
         android:background="@drawable/makeroom"
         android:fontFamily="@font/nanumsquarebold"
         android:text="방 만들기"
         android:textColor="#ffffff"
         android:textSize="56px" />
-
-
 
 
 </RelativeLayout>
