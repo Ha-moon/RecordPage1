@@ -67,10 +67,11 @@
         android:layout_alignParentLeft="true"
 
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
+        android:layout_centerHorizontal="true"
 
-        android:layout_marginBottom="463dp" />
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginBottom="432dp" />
 
     <ImageButton
         android:id="@+id/record_btn"
@@ -92,9 +93,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="51dp"
-        android:layout_marginLeft="51dp"
-        android:layout_marginBottom="331dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginLeft="79dp"
+        android:layout_marginBottom="268dp"
         android:text="재생" />
 
     <Button
@@ -104,10 +105,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="73dp"
-        android:layout_marginRight="73dp"
-        android:layout_marginBottom="319dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="265dp"
         android:text="정지" />
 
     <EditText
@@ -115,6 +115,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="400dp"
+        android:hint="음성인식 결과가 미리 여기에 표시됩니다."
         />
 
 

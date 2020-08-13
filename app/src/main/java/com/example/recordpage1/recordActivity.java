@@ -125,8 +125,8 @@ public class recordActivity extends AppCompatActivity {
             public void onClick(View view) {
                 stopandsave();
 
-//                Intent intent = new Intent(getApplicationContext(), settingActivity.class);
-//                startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(), settingActivity.class);
+                startActivity(intent);
 
 
                 Toast.makeText(getApplicationContext(), "저장했습니다:)", Toast.LENGTH_LONG).show();
